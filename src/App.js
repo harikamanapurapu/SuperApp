@@ -11,7 +11,7 @@ function App() {
   return (
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Register />}></Route>
+          <Route path='/SuperApp' element={<Register />}></Route>
           <Route path='/Category' element={<Category />}></Route>
           <Route path='/Browse' element={<Browse/>}></Route>
           <Route path='/Movies' element={<Movies/>}></Route>
