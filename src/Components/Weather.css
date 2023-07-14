@@ -1,0 +1,94 @@
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 200.41px;
+    background-color: #101744;
+    border-radius: 33.428px;
+    margin-top: 10px;
+}
+.dateandtime{
+    background-color: #FF4ADE;
+    border-radius: 33.428px 33.428px 0px 0px;
+    width: 550px;
+    height: 60.77px;
+    text-align: center;
+}
+.dt{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5px;
+
+}
+.weatherdetails{
+    width:550px;
+    height: 80px;
+    display: flex;
+    padding: 40px;
+}
+.condition{
+    display: flex;
+    flex-direction: column;
+}
+.cloud{
+    Width:70.83px;
+    height:70.93px;
+}
+.weathercondition{
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto';
+}
+.temp-pres{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.temp{
+
+    font-size: 40px ;
+    color: white ;
+    font-family: 'Roboto';
+    font-weight:400 ;
+    width:100.36px;
+}
+.press{
+    display: flex;
+    width:100.36px;
+}
+.press-con{
+    color:white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+.win-hum{
+    display: flex;
+    flex-direction: column;
+}
+.win{
+    display: flex;
+}
+.wind{
+    color: white;
+    font-size: 20px;
+    font-family:'Roboto' ;
+    font-weight: 300;
+    width: 102px;
+    margin-bottom: 7px;
+
+}
+.hum{
+    display: flex;
+}
+.humidity{
+    color: white;
+    font-size: 20px;
+    font-family:'Roboto' ;
+    font-weight: 300;
+    width: 102px;
+    margin-bottom: 10px;
+}

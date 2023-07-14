@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Single Day';
+    src: url("C:\Users\harik\OneDrive\Desktop\Capstone project\super-app\src\Components\DM_Sans,Roboto,Single_Day\Single_Day\SingleDay-Regular.ttf")
+}
+@font-face {
+    font-family: 'DM sans';
+    src: url("C:\Users\harik\OneDrive\Desktop\Capstone project\super-app\src\Components\DM_Sans,Roboto,Single_Day\DM_Sans\DMSans-Regular.ttf");
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("C:\Users\harik\OneDrive\Desktop\Capstone project\super-app\src\Components\DM_Sans,Roboto,Single_Day\Roboto\Roboto-Regular.ttf");
+}
+.link-inactive{
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    max-height: 100vh;
+    max-width: 1700px;
+    display: flex;
+
+}
+
+.left-section {
+    width: 700px;
+    height: 100vh;
+}
+
+.descriptions {
+    color: white;
+    background-image: url("C:\Users\harik\OneDrive\Desktop\Capstone project\super-app\src\Components\assets\developer.png");
+    width: 700px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 740px;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'Single Day', cursive;
+    font-size: 55px;
+    color: green;
+
+}
+
+.newaccount {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 7px;
+
+}
+
+.input {
+    width: 450px;
+    height: 26px;
+    background: #292929;
+    border-radius: 3.8px;
+    color: #7C7C7C;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.consent {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.label {
+    color: #7C7C7C;
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.04em;
+    width: 460px;
+    height: 19px;
+}
+
+.button {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    letter-spacing: 0.04em;
+    background-color: #72DB73;
+    border: none;
+    border-radius: 28px;
+    width: 460px;
+    height: 55px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 460px;
+    height: 53px;
+    margin-top: 20px;
+}
+
+.conditions {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #7C7C7C;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.policy {
+    color: #72DB73;
+}
+.error{
+    color:#FF0000;
+    font-size: 10px;
+    font-family: 'DM Sans',sans-serif;
+    width: 366px;
+    height: 20px;
+}

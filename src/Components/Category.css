@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Single Day';
+    src: url("C:\Users\harik\OneDrive\Desktop\Capstone project\super-app\src\Components\DM_Sans,Roboto,Single_Day\Single_Day\SingleDay-Regular.ttf")
+}
+@font-face {
+    font-family: 'DM sans';
+    src: url("C:\Users\harik\OneDrive\Desktop\Capstone project\super-app\src\Components\DM_Sans,Roboto,Single_Day\DM_Sans\DMSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("C:\Users\harik\OneDrive\Desktop\Capstone project\super-app\src\Components\DM_Sans,Roboto,Single_Day\Roboto\Roboto-Regular.ttf");
+}
+
+*{
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 120vh;
+    background-color: #000000;
+    max-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:relative;
+    max-width: 350vh;
+    height: 100vh;
+    padding: 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    color: #72DB73;
+    font-size: 71px;
+    font-family: 'Single Day';
+    font-weight: 400;
+    width: 554px;
+    margin-bottom: 0;
+}
+.select-category{
+    color: white;
+    font-size:68px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    width: 554px;
+    height: 316px;
+    margin-top: 0;
+}
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    width:600px;
+}
+.Button{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+}
+.action{
+    background-color: #FF5209;
+}
+.drama{
+    background-color: #D7A4FF;
+}
+.romance{
+    background-color: #148A08;
+
+}
+.thriller{
+    background-color: #84C2FF;
+}
+.western{
+    background-color: #902500;
+}
+.horror{
+    background-color: #7358FF;
+}
+.fantasy{
+    background-color: #FF4ADE;
+}
+.music{
+    background-color: #E61E32;
+}
+.fiction{
+    background-color: #6CD061;
+
+}
+.para{
+    font-size:20px ;
+    color: white;
+    font-family: 'DM Sans',sans-serif ;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.Action{
+    height: 85px;
+    width:135px;
+    border:none;
+    border-radius: 20px;
+    padding-top: 0;
+    padding-left: 5px;
+    padding-bottom: 6px;
+    
+
+}
+.button-container{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.next{
+    background-color: #148A08;
+    width: 150px;
+    height: 40px;
+    font-family: 'DM sans',sans-serif;
+    font-size:20px ;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+.categoryList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 554px;
+    list-style: none;
+}
+.action-btn{
+    background-color:#148A08;
+    border: none;
+    border-radius: 31px;
+    width: 193px;
+    height: 52px;
+    margin-left: 10px;
+    margin-bottom:10px ;
+    display: flex;
+    justify-content: space-between;
+}
+.Content{
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top:10px;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    letter-spacing: 0.02em;
+}
+.cross{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #085C00;
+    margin-left: 9px;
+}
+.msg{
+    display: flex;
+}
+.errorMsg{
+    color: #E61E32;
+    position: absolute;
+    left: 60px;
+    top: 600px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.exclamatoryMark{
+    position: absolute;
+    left: 30px;
+    top: 600px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

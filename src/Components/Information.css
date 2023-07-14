@@ -1,0 +1,77 @@
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #5746EA;
+    width: 550px;
+    height: 300.24px;
+    border-radius: 33.428px;
+}
+.details{
+    display: flex;
+    width: 450px;
+    height: 290.24px;
+}
+.Image{
+    filter: drop-shadow(0px 8.79684px 7.03748px rgba(0, 0, 0, 0.31));
+    width: 200.36px;
+    height: 300.2px;
+    margin-top: 5px;
+}
+.info{
+    width: 155px;
+    height: 400px ;
+    display: flex;
+    flex-direction: column;
+    margin-left:5px;
+}
+.name{
+    font-size:25px ;
+    font-family: 'Roboto' ;
+    width: 154.82px; 
+    color: white;
+    margin-top:7px;
+    margin-bottom: 5px;
+}
+.email{
+    font-size:23px ;
+    font-family: 'Roboto' ;
+    width: 250.99px; 
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.username{
+    font-size:25px ;
+    font-family: 'Roboto' ;
+    width: 250px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul{
+    list-style-type: none;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 100px ;
+    margin-top: 15px;
+}
+.categ{
+    background-color: #9F94FF;
+    width: 140.51px;
+    height: 30.58px;
+    border-radius: 36.9467px;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: center;
+}
+.genreItem{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin:10px;
+    
+}
