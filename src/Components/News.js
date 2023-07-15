@@ -1,16 +1,16 @@
 import '../Components/News.css'
-
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import axios from 'axios'
 
 const NewsComponent = () => {
   const [newsData, setNewsData] = useState([]);
   const [date, setDate] = useState("")
   const [time, setTime] = useState("")
 
-
+    console.log(newsData)
   useEffect(() => {
     const fetchData = async () => {
+
       const apiKey = "82d8f281191349788da6e6ad02454efa"
       const url = `https://newsapi.org/v2/everything?q=Nature`; // Replace with the API endpoint URL
 
@@ -36,9 +36,9 @@ const NewsComponent = () => {
     fetchData();
   }, []);
 
-  const indexToFetch = 28; // Replace with the desired index
+  const indexToFetch = 20; // Replace with the desired index
 
-  const article = newsData[indexToFetch];
+   const article = newsData[indexToFetch];
 
   useEffect(()=>{
     const date = new Date
@@ -125,3 +125,5 @@ export default NewsComponent;
 export default News*/}
 
 //https://newsapi.org/v2/everything?q=India&apiKey=82d8f281191349788da6e6ad02454efa
+      // const apiKey = "82d8f281191349788da6e6ad02454efa"
+      // const url = `https://newsapi.org/v2/everything?q=Nature`; // Replace with the API endpoint URL
